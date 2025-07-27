@@ -19,7 +19,7 @@ import java.util.concurrent.CompletableFuture;
 public class WeatherApiClient {
 
 //    @Value("${openweathermap.apiKey}")
-    private String apiKey = "7c5312573d87826a182b4feaede5765e";
+    private String apiKey = "add_your_api_key_here";
 
     private final WebClient webClient = WebClient.builder()
             .baseUrl("https://api.openweathermap.org/data/2.5")

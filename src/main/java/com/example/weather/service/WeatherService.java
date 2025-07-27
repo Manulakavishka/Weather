@@ -14,7 +14,7 @@ public class WeatherService {
 
     private final WebClient webClient;
 
-    private final String API_KEY = "7c5312573d87826a182b4feaede5765e"; // your working key
+    private final String API_KEY = "add_your_api_key_here"; // your working key
 
     public WeatherService(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.baseUrl("https://api.openweathermap.org").build();
